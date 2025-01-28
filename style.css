@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1559px;
+    height: auto;
+    margin: 0 auto;
+}
+.heder{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.heder_main{
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1% 0px;
+}
+.heder_btn{
+    width: 150px;
+    height: 50px;
+   color: white;
+background-color: #f0544c;
+border: none;
+border-radius: 12px;
+}
+.text{
+    font-family: Circular Std;
+font-size: 24px;
+font-weight: 900;
+text-align: left;
+text-underline-position: from-font;
+}
+.bars{
+    display: none;
+}
+.minute{
+    width: 100%;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+}
+.minute_main{
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rayt{
+    width: 45%;
+    display: flex;  
+    justify-content: center;
+    flex-direction: column;
+}
+.slove{
+    font-family: Circular Std;
+    font-size: 60px;
+    letter-spacing: -1.875789999961853px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 80%;
+}
+.banner{
+    font-family: Circular Std;
+font-size: 21px;
+letter-spacing: -0.6565263867378235px;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin: 5% 0px;
+}
+.heder_link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    text-decoration: none;
+    color: black;
+}
+.heder_link1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.minute_btn{
+    width: 300px;
+    height: 50px;
+   color: white;
+background-color: #f0544c;
+border: none;
+font-family: Circular Std;
+font-size: 21px;
+letter-spacing: -0.6565263867378235px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin: 2% 0px;
+border: none;
+}
+.btn_p{
+    font-family: Circular Std;
+font-size: 18px;
+letter-spacing: -0.5627368688583374px;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.img{
+    width: 100%;
+}
+.futr{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.futr_main{
+    margin: 5% 0px;
+    width: 70%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.futr_text{
+    font-family: Circular Std;
+font-size: 60px;
+letter-spacing: -1.875789999961853px;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin: 3% 0px;
+}
+.futrdeg{
+    font-family: Circular Std;
+font-size: 21px;
+letter-spacing: -0.6565263867378235px;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #696871;
+width: 75%;
+}
+span{
+    color: blue;
+}
+.futr_btn{
+    width: 200px;
+    height: 50px;
+   color: white;
+background-color: #f0544c;
+border: none;
+font-family: Circular Std;
+font-size: 21px;
+letter-spacing: -0.6565263867378235px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin: 2% 0px;
+border: none; 
+border-radius: 12px;
+}
+.ortasi{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.orta_main{
+    width: 60%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 5% 0px;
+}
+.orta_dec{
+    font-family: Circular Std;
+    width: 70%;
+font-size: 21px;
+font-style: italic;
+letter-spacing: -0.6565263867378235px;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin: 3% 0px;
+}
+.orta_text{
+    font-family: Circular Std;
+font-size: 21px;
+letter-spacing: -0.6565263867378235px;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+
+.tagi{
+    width: 100%;
+    height: auto;
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+.tagi_main{
+    margin: 5% 0px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ahref{
+    text-decoration: none;
+    color: #19191B ;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1450px){
+    .slove{
+        font-size: 50px;
+    }
+  
+}
+@media only screen and (max-width:1200px){
+    .slove{
+        font-size: 40px;
+    }
+    .dec_banner{
+        margin: 5% 0px;
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width:950px){
+    .tagi_main{
+        flex-direction: column;
+    }
+    .ahref{
+        margin: 5% 0px;
+    }
+    .orta_main{
+        flex-direction: column;
+    }
+    .orta_dec{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .orta_text{
+        margin: 3% 0px;
+        text-align: center;
+    }
+    .futr_main{
+        flex-direction: column;
+    }
+    .futr_text{
+        font-size: 40px;
+        text-align: center;
+    }
+    .futrdeg{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .slove{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .rayt{
+        width: 85%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .minute_main{
+        flex-direction: column; 
+    }
+    .banner{
+       margin: 0 auto;
+    }
+    .minute_btn{
+        margin: 3% 0px;
+    }
+    .btn_p{
+        margin: 0 auto;
+    }
+    .dec_banner{
+        gap: 20px;
+    }
+    .bars{
+        display: block;
+        font-size: 20px;
+    }
+    .heder_link{
+        display: none;
+    }
+.dec{
+    display: none;
+}
+.heder_btn{
+    display: none;
+}
+}
+@media only screen and (max-width:500px){
+
+.slove{
+    font-size: 30px;
+}
+}
